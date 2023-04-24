@@ -1,0 +1,20 @@
+.navigation {
+  align-items: center;
+  column-gap: 3rem;
+  display: flex;
+  font-family: var(--fonte-principal);
+  height: 112px;
+  justify-content: center;
+}
+
+.link {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--cor-fonte-principal);
+}
+
+@media (max-width: 744px) {
+  .navigation {
+    height: 72px;
+  }
+}
