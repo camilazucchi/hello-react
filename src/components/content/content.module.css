@@ -1,0 +1,30 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
+.image {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.title {
+  color: var(--cor-fonte-principal);
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  padding: 2rem;
+  text-align: justify;
+}
