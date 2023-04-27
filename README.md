@@ -1,38 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
+# Hello React - SPA (Single Page Application)
+Este projeto foi criado através do curso [React: desenvolvendo em React Router com JavaScript](https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript), da plataforma de estudos [Alura](https://www.alura.com.br/), com o intuito de praticar uma SPA (Single Page Application) utilizando a biblioteca React.
+## Como usar
+1. Clone este repositório em sua máquina local.
+2. No terminal, execute o comando:<br>
+```bash
+npm install
+```
+3. Aguarde a instalação.
+4. Para fazer o deploy, execute o comando:<br>
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Aprendizados
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+O projeto base do curso era feito com CRA (Create React App), mas após ler a documentação oficial da biblioteca React, decidi utilizar Next.js, para aprimorar meus conhecimentos. Desta forma, a aplicação encontra-se com o framework Next.js.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Deploy
+O projeto está em deploy através do Vercel, para visualizá-lo clique <b>[AQUI](https://hello-react-sage.vercel.app/)</b>.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Autor
+Feito com muito amor por <b>[Camila Zucchi](https://github.com/camilazucchi/)</b>.
