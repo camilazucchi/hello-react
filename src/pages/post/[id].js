@@ -4,6 +4,10 @@ import Content from "@component/components/content/content";
 import Banner from "@component/components/banner";
 import Navigation from "@component/components/navigation";
 import MarkdownRenderer from "@component/components/markdown";
+import Button from "@component/components/button";
+import Link from "next/link";
+import NotFound from "@component/components/notfound";
+import Footer from "@component/components/footer";
 
 export default function Posts() {
   const router = useRouter();
@@ -17,7 +21,13 @@ export default function Posts() {
   console.log(post);
 
   if (!post) {
-    return <h1>Ops, post não encontrado!</h1>;
+    return (
+      <main>
+        <Navigation />
+        <NotFound />
+        <Footer />
+      </main>
+    );
     // retorna caso o post não for encontrado.
   }
 
@@ -30,6 +40,9 @@ export default function Posts() {
         title={post.title}
       >
         <MarkdownRenderer>{post.text}</MarkdownRenderer>
+        <Link href="/">
+          <Button>Return</Button>
+        </Link>
       </Content>
     </main>
   );
