@@ -2,6 +2,7 @@ import Image from "next/image";
 import catCrying from "../../../public/assets/img/catcrying.gif";
 import styles from "./notfound.module.css";
 import Button from "../button";
+import Link from "next/link";
 
 export default function NotFound() {
   return (
@@ -12,9 +13,9 @@ export default function NotFound() {
         The page you are looking for does not exist. <br></br>It might have been
         moved or deleted.
       </p>
-      <Button>
-        <a href="/">Return</a>
-      </Button>
+      <Link href="/">
+        <Button size="lg">Return</Button>
+      </Link>
 
       <Image
         src={catCrying}
