@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./post.module.css";
+import Button from "../button";
 
 export default function Post({ post }) {
   return (
@@ -16,7 +17,7 @@ export default function Post({ post }) {
           alt="Capa do post"
         />
         <h2 className={styles.title}>{post.title}</h2>
-        <button className={styles.button}>Read</button>
+        <Button>Read</Button>
       </div>
     </Link>
   );
