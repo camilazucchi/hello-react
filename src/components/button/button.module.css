@@ -1,12 +1,18 @@
 .button {
-    background-color: var(--rosa-escuro);
-    border-radius: 24px;
-    border: 3px solid var(--azul-medio);
-    color: var(--rosa-claro);
-    cursor: pointer;
-    display: inline-block;
-    font-size: 1.125rem;
-    line-height: 1.125rem;
-    padding: 0.75rem 1.5rem;
-    transition: 0.2s;
-  }
+  background-color: var(--rosa-escuro);
+  border-radius: 24px;
+  border: 3px solid var(--azul-medio);
+  color: var(--rosa-claro);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  padding: 0.75rem 1.5rem;
+  transition: 0.2s;
+}
+
+.buttonlg {
+  font-size: 1.5rem;
+  line-height: 1.125rem;
+  padding: 1.5rem 2.75rem;
+}
